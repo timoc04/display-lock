@@ -46,7 +46,7 @@ void loop() {
 
       if (longEnoughClosed && cooldownFinished) {
         // Stuur herkenbaar bericht in plaats van één losse byte
-        Serial.println("UNLOCK");
+        Serial.println("TRIGGER");
 
         lastTriggerAt = now;
         armed = false;
